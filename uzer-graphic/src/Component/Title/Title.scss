@@ -1,0 +1,13 @@
+@import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
+.title {
+    &-interface {
+        width: 78%;
+        font-size: 36px;
+        font-family: "Avenir Heavy";
+        color: #000000;
+        font-weight: bold;
+    }
+    .subtitle-interface {
+        width: 72%;
+    }
+}

@@ -1,0 +1,27 @@
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 14rem;
+}
+
+.interface {
+    width: 49.9%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.graphic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}

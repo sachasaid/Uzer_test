@@ -1,0 +1,63 @@
+@import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
+@import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Roman);
+.form {
+    display: flex;
+    flex-direction: column;
+    &-input {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        &-container {
+            display: flex;
+            align-items: center;
+            width: 39%;
+        }
+        &-1 {
+            font-family: "Avenir Roman";
+            font-size: 18px;
+            background-color: #f4700038;
+            border: none;
+            outline: none;
+        }
+        &-2 {
+            font-family: "Avenir Roman";
+            font-size: 18px;
+            background-color: #f4700038;
+            margin-left: 35px;
+            border: none;
+            outline: none;
+        }
+        .valid {
+            margin-left: -53px;
+            margin-top: 2px;
+            color: green;
+        }
+        .notvalid {
+            margin-left: -50px;
+            margin-top: 5px;
+        }
+    }
+    .btn-visualisation {
+        font-family: "Avenir Heavy";
+        background-color: #F47000;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-top: 2em;
+        font-size: 20px;
+        width: 162px;
+        height: 54px;
+        border-radius: 8px;
+    }
+    .style {
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        padding: 7px;
+    }
+     ::placeholder {
+        color: #000000;
+        font-size: 18px;
+    }
+}
